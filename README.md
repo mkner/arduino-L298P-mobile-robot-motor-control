@@ -10,9 +10,13 @@ using MotorShield L298P on Arduino UNO
  * has an auto-prime function that can kick-start TT-Motors into rotation \
    when stalled and not  enough current to escape resting inertia at low velocities
    
- * versatile functions with intuitive semantic interface 
-   
- 
+ * versatile functions with intuitive semantic interface
+
+ * wheel odometry using Runge-Kutte approximation\
+   with serial terminal output of runtime results from implementation of\
+   ICR - Instananeous Center of Rotation - equations
+
+  
 Example from unicycle.c
 
 Can have a differential drive robot act like a unicycle
