@@ -7,23 +7,6 @@
  */
  
 
-/*
-differential drive robot acting like a unicycle
-
-// go forward at 25% for 4 seconds
-
-unicycle(FORWARD, 25, 4000)
-
-unicycle(STOP)
-
-delay(2000)
-
-//note: wheels(STOP,2000) is same as above
-
-// spin in pos dir with rotational velocity (phi-dot) at 5% for 2 seconds
-unicycle(SPIN_LEFT, 5, 2000) 
-*/
-
 void unicycle(DIRECTION dir, int rate=0, int dur=0) {
 
 // commands are constrained to the motion of a one wheel unicycle 
