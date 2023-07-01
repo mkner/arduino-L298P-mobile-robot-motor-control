@@ -5,7 +5,7 @@ using MotorShield L298P on Arduino UNO
    
  * higher low-level commands using  rate, time, distance units for motion control
    
- * supports odometry using typical IR wheel encoder sensors & encoder wheels for TT-Motors
+ * supports odometry using interrupt driven IR wheel encoder sensors & encoder wheels for TT-Motors
    
  * has an auto-prime function that can kick-start TT-Motors into rotation \
    when stalled and not  enough current to escape resting inertia at low velocities
