@@ -16,6 +16,10 @@ using MotorShield L298P on Arduino UNO
    with serial terminal output of runtime results from implementation of\
    ICR - Instananeous Center of Rotation - equations
 
+
+       
+   
+
   
 Example from unicycle.c
 
