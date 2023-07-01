@@ -1,7 +1,7 @@
  
 /*
  * implementation of ICR equations
- * with odometry using Runge-Kutte aproximation
+ * with odometry using Runge-Kutte approximation
  * for differential drive robots
  * 
  * output is to serial terminal
