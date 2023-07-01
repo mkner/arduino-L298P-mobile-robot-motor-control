@@ -17,8 +17,8 @@ Example from unicycle.c
 
 Can have a differential drive robot act like a unicycle
 
-Use the unicycle function get the mobile robot
-to move like a uniycle with commands that make sense
+Use the wheels function to create a unicycle function that limits the\
+motion of the mobile robot to that of a unicycle 
 
 unicycle(FORWARD, 25, 4000) // go forward at 25% for 4 seconds
 
