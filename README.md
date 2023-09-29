@@ -1,5 +1,5 @@
-C functions for basic motor/wheel control of differential drive mobile robots\
-using MotorShield L298P on Arduino UNO
+Functions for basic motor/wheel control of differential drive mobile robots\
+using MotorShield L298P on Arduino UNO. Implemented in C/C++ 
    
  * low level controller/actuator functions for basic motor control
    
@@ -8,7 +8,7 @@ using MotorShield L298P on Arduino UNO
  * supports odometry using interrupt driven IR wheel encoder sensors & encoder wheels for TT-Motors
    
  * has an auto-prime function that can kick-start TT-Motors into rotation \
-   when stalled and not  enough current to escape resting inertia at low velocities
+   when stalled and not enough current to escape resting inertia at low velocities
    
  * versatile functions with intuitive semantic interface
 
