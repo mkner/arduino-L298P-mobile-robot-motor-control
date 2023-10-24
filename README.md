@@ -28,7 +28,8 @@ Can have a differential drive robot act like a unicycle
 Use the wheels function to create a unicycle function that limits the\
 motion of the mobile robot to that of a unicycle
    
-.. code-block:: console 
+``` cpp
+
    unicycle(FORWARD, 25, 4000) // go forward at 25% for 4 seconds
    
    unicycle(SPIN_LEFT, 5, 2000) // spin in pos dir with rotational velocity (phi-dot) at 5% for 2 seconds
@@ -42,4 +43,6 @@ motion of the mobile robot to that of a unicycle
    delay(2000) 
    
    //note: wheels(STOP,2000) is same as above
+
+```
 
