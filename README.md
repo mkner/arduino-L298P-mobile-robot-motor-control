@@ -36,12 +36,11 @@ motion of the mobile robot to that of a unicycle
    delay(4000)
    
    unicycle(FORWARD, 25) // move forward @ 25% continuously
-   
-   unicycle(STOP) //until stopped
-   
+
+   unicycle(STOP) //same as  wheels(STOP,2000)
    delay(2000) 
+
    
-   //note: wheels(STOP,2000) is same as above
 
 ```
 
