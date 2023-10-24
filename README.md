@@ -21,9 +21,9 @@ using MotorShield L298P on Arduino UNO. Implemented in C/C++
    
 
   
-   Example from unicycle.c
+Example from unicycle.c
 
-Can have a differential drive robot act like a unicycle
+Unicycle movements with a differential drive robot
 
 Use the wheels function to create a unicycle function that limits the\
 motion of the mobile robot to that of a unicycle
