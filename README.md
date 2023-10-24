@@ -31,7 +31,7 @@ motion of the mobile robot to that of a unicycle
 
    unicycle(FORWARD, 25, 4000) // go forward at 25% for 4 seconds
    
-   unicycle(SPIN_LEFT, 5, 2000) // spin in pos dir with rotational velocity (phi-dot) at 5% for 2 sec
+   unicycle(SPIN_LEFT, 5, 2000) // spin (+) with rotational velocity (phi-dot) at 5% for 2 sec
    
    delay(4000)
    
