@@ -18,7 +18,6 @@ using MotorShield L298P on Arduino UNO. Implemented in C/C++
 
 
        
-   
 
   
 Example from unicycle.c
