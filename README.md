@@ -21,24 +21,25 @@ using MotorShield L298P on Arduino UNO. Implemented in C/C++
    
 
   
-Example from unicycle.c
+   Example from unicycle.c
 
 Can have a differential drive robot act like a unicycle
 
 Use the wheels function to create a unicycle function that limits the\
-motion of the mobile robot to that of a unicycle 
-
-unicycle(FORWARD, 25, 4000) // go forward at 25% for 4 seconds
-
-unicycle(SPIN_LEFT, 5, 2000) // spin in pos dir with rotational velocity (phi-dot) at 5% for 2 seconds
-
-delay(4000)
-
-unicycle(FORWARD, 25) // move forward @ 25% continuously
-
-unicycle(STOP) //until stopped
-
-delay(2000) 
-
-//note: wheels(STOP,2000) is same as above
+motion of the mobile robot to that of a unicycle
+   
+.. code-block:: console 
+   unicycle(FORWARD, 25, 4000) // go forward at 25% for 4 seconds
+   
+   unicycle(SPIN_LEFT, 5, 2000) // spin in pos dir with rotational velocity (phi-dot) at 5% for 2 seconds
+   
+   delay(4000)
+   
+   unicycle(FORWARD, 25) // move forward @ 25% continuously
+   
+   unicycle(STOP) //until stopped
+   
+   delay(2000) 
+   
+   //note: wheels(STOP,2000) is same as above
 
